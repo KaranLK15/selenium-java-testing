@@ -1,0 +1,24 @@
+package JavaClass;
+
+public class callByValueVsRef {
+int a;
+	public void callByValue(int id) {
+		System.out.println("This is call by value:"+id);
+		this.int=id;
+	}
+	
+	public void callByOtherClassRef(methoddemo m)
+	{
+		System.out.println(30);
+		m.show();
+	}	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		callByValueVsRef c1= new callByValueVsRef();
+		c1.callByValue(1000);
+		methoddemo m1=new methoddemo();
+		c1.callByOtherClassRef(m1);
+		c1.callByOtherClassRef(m1);
+	}
+
+}

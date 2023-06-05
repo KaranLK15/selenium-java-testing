@@ -1,0 +1,15 @@
+package java_class;
+
+import java.util.Scanner;
+
+public class Nestedforloop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number");
+		int num=sc.nextLine();
+		System.out.println("Hello");
+	}
+
+}

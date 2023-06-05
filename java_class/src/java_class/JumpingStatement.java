@@ -1,0 +1,53 @@
+package java_class;
+
+public class JumpingStatement {
+
+	public static String info()
+	{
+		return"Hello everyone";
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		System.out.println(info());
+		
+/*		for (int i=1;i<=5;i++)
+		{
+			if(i==4)
+			{
+			continue;
+			}
+			else
+			{
+				System.out.println(i);
+			}
+		
+		}
+		
+*/		
+		
+		
+	for(int i=1;i<=10;i++)
+		{
+			if(i==2)
+			{
+			    continue;
+			}
+			else
+			{
+				System.out.println(i);
+			}
+		
+		}
+
+		
+		
+		
+		
+		
+	}
+
+}

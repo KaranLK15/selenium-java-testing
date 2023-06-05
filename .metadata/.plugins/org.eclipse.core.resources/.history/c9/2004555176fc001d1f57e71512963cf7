@@ -1,0 +1,18 @@
+package java_class;
+
+public class NestedforloopNumbers {
+
+	public static void main (String[] args)
+	{
+		
+		
+		System.out.println(c);
+		
+		
+		
+		
+		
+		
+	}
+	
+}

@@ -1,0 +1,17 @@
+package java_class;
+
+public class Dowhileloop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int k=1;
+		do
+		{
+			System.out.println("Hello dear");
+			k++;
+		}
+	while(k<=12)
+	}
+	
+
+}

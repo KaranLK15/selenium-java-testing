@@ -1,0 +1,12 @@
+package java_class;
+
+public class Array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int sid[]=new int[5];
+		
+	}
+
+}

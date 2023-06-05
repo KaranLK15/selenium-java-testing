@@ -1,0 +1,21 @@
+package java_class;
+
+public class NestedforloopNumbers {
+
+	public static void main (String[] args)
+	{
+		
+		for (int t=1;t<=5;t++)
+		{
+			for (int c=1; c<=t; c++)
+				{
+				System.out.print(c);
+				}
+			System.out.println();
+		}
+		
+		
+		
+	}
+	
+}
